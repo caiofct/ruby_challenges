@@ -1,4 +1,4 @@
-### Mars Hover Problem. ###
+### Mars Rover Problem. ###
 
 The problem is to create an interface for a robot that will
 accept the following commands and will respond to them following the example
