@@ -1,0 +1,9 @@
+<h1>URL SHORTENER</h1>
+
+<form action="/short" method="POST">
+  <input type="text" name="url" placeholder="URL TO SHORT"></input>
+</form>
+
+<% if @shortener %>
+  <h2>Your short url is: <a href="<%= @shortener %>"><%=@shortener%></a></h2>
+<% end %>
